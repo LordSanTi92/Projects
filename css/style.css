@@ -72,33 +72,41 @@ box-shadow: 0px 0px 10px darkgrey;
 	box-shadow: 0px 0px 1px darkgrey;
 	border: 1px solid grey;
 }
-/*styles for section with small boxes*/
-#head{
+/*styles for section with conent boxes*/
+.products{
+	background-color: grey;
+}
+.section-header h2{
 	text-align: center;
+	padding-bottom: 20px;
 }
-.small-box{
-	float: left;
+.medium-box{
+	display: inline-block;
 	width: 30%;
-	margin-left: 20px;
+	margin-left: 15px;
 }
-.black{
-	background-color: black;
+.content-box{
+	background-color: white;
 	height: 100px;
 }
 
-/*syles for section with medium box*/
-.medium-box{
-	width: 48%;
+/*syles for section with box*/
+.box{
+	width: 49%;
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 10px;
+	margin: 0 auto;
 }
 
 /*styles for section with microboxes*/
-.microbox{
+.small-box{
 	width: 15%;
-	float: left;
-	background-color: black;
-	height: 100px;
-	margin-left: 11px;
+	display: inline-block;
+	margin-left: 11.5px;
+}
+
+/*styles for section with smallboxes*/
+.-box{
+
 }
