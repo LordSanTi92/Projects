@@ -1,112 +1,168 @@
 /*reset css*/
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-	}
-/*font declaration*/
-@font-face {
-	font-family: 'VT323';
-	src: url('../fonts/VT323-Regular.eot');
-	src: local('VT323 Regular'), local('VT323-Regular'),
-		url('../fonts/VT323-Regular.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/VT323-Regular.woff2') format('woff2'),
-		url('../fonts/VT323-Regular.woff') format('woff'),
-		url('../fonts/VT323-Regular.ttf') format('truetype'),
-		url('../fonts/VT323-Regular.svg#VT323-Regular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-/*common styles*/
-body{
-  font-family: VT323,arial,sans-serif;
-}
-.main-width{
-	width: 800px;
-	margin:0 auto;
-	border:1px solid red;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.main-width::after{
-	clear: both;
-	content: '';
-	display: block;
+
+
+/*font declaration*/
+
+@font-face {
+  font-family: 'VT323';
+  src: url('../fonts/VT323-Regular.eot');
+  src: local('VT323 Regular'), local('VT323-Regular'), url('../fonts/VT323-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/VT323-Regular.woff2') format('woff2'), url('../fonts/VT323-Regular.woff') format('woff'), url('../fonts/VT323-Regular.ttf') format('truetype'), url('../fonts/VT323-Regular.svg#VT323-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+/*common styles*/
+
+body {
+  font-family: VT323, arial, sans-serif;
+}
+
+.main-width {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.main-width::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
 
 /*styles for header*/
-header{
-	width: 100%;
-	background-color: grey;
-	font-size: 25px;
+
+header {
+  width: 100%;
+  background-color: grey;
+  font-size: 25px;
 }
-#header-logo{
-	float:left;
+
+#header-logo {
+  float: left;
 }
-#header-menu{
-	float: right;
+
+#header-menu {
+  float: right;
 }
-#header-menu li{
-	display: inline-block;
+
+#header-menu li {
+  display: inline-block;
 }
-#header-menu li:hover{
-	color:red;
+
+#header-menu li:hover {
+  color: red;
 }
+
 
 /*styles for slider*/
-.slider{
-	background-color: beige;
-	text-align: center;
+
+.slider {
+  background-color: beige;
+  text-align: center;
 }
 
-.button{
-	border: 1px solid grey;
-	border-radius: 2px;
-	width:100px;
-	margin:10px auto;
-	background-color: grey;
+.button {
+  border: 1px solid grey;
+  border-radius: 2px;
+  width: 100px;
+  margin: 10px auto;
+  background-color: grey;
 }
-.button:hover{
-box-shadow: 0px 0px 10px darkgrey;
+
+.button:hover {
+  box-shadow: 0px 0px 10px darkgrey;
 }
-.button:active{
-	box-shadow: 0px 0px 1px darkgrey;
-	border: 1px solid grey;
+
+.button:active {
+  box-shadow: 0px 0px 1px darkgrey;
+  border: 1px solid grey;
 }
+
+
 /*styles for section with conent boxes*/
-.products{
-	background-color: grey;
+
+.products {
+  background-color: grey;
 }
-.section-header h2{
-	text-align: center;
-	padding-bottom: 20px;
+
+.section-header h2 {
+  text-align: center;
+  padding-bottom: 20px;
 }
-.medium-box{
-	display: inline-block;
-	width: 30%;
-	margin-left: 15px;
+
+.medium-box {
+  display: inline-block;
+  width: 30%;
+  margin-left: 15px;
 }
-.content-box{
-	background-color: white;
-	height: 100px;
+
+.content-box {
+  background-color: white;
+  height: 100px;
 }
+
 
 /*syles for section with box*/
-.box{
-	width: 49%;
-	display: inline-block;
-	vertical-align: top;
-	padding-left: 10px;
-	margin: 0 auto;
+
+.description {
+  background-color: beige;
 }
 
-/*styles for section with microboxes*/
-.small-box{
-	width: 15%;
-	display: inline-block;
-	margin-left: 11.5px;
+.box {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+  margin: 0 auto;
 }
+
+.box h3 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.box span {
+  display: block;
+}
+
+
+/*styles for section with */
+
+.our-clients {
+  background-color: grey;
+}
+
+.small-box {
+  width: 14%;
+  display: inline-block;
+  margin-left: 13.5px;
+}
+
 
 /*styles for section with smallboxes*/
-.-box{
-
+.super-section{
+	background-color: beige;
+}
+.medium-box li {
+  font-size: 10px;
+  list-style: none;
+  padding-left: 10px;
+}
+img{
+width: 20px;
+height: 20px
+}
+#credenctials{
+	float: left;
+}
+#logo-footer{
+	float: right;
 }
