@@ -1,3 +1,10 @@
+/*reset css*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	}
+/*font declaration*/
 @font-face {
 	font-family: 'VT323';
 	src: url('../fonts/VT323-Regular.eot');
@@ -10,6 +17,88 @@
 	font-weight: normal;
 	font-style: normal;
 }
+/*common styles*/
 body{
-  font-family: VT323;
+  font-family: VT323,arial,sans-serif;
+}
+.main-width{
+	width: 800px;
+	margin:0 auto;
+	border:1px solid red;
+
+}
+.main-width::after{
+	clear: both;
+	content: '';
+	display: block;
+}
+
+/*styles for header*/
+header{
+	width: 100%;
+	background-color: grey;
+	font-size: 25px;
+}
+#header-logo{
+	float:left;
+}
+#header-menu{
+	float: right;
+}
+#header-menu li{
+	display: inline-block;
+}
+#header-menu li:hover{
+	color:red;
+}
+
+/*styles for slider*/
+.slider{
+	background-color: beige;
+	text-align: center;
+}
+
+.button{
+	border: 1px solid grey;
+	border-radius: 2px;
+	width:100px;
+	margin:10px auto;
+	background-color: grey;
+}
+.button:hover{
+box-shadow: 0px 0px 10px darkgrey;
+}
+.button:active{
+	box-shadow: 0px 0px 1px darkgrey;
+	border: 1px solid grey;
+}
+/*styles for section with small boxes*/
+#head{
+	text-align: center;
+}
+.small-box{
+	float: left;
+	width: 30%;
+	margin-left: 20px;
+}
+.black{
+	background-color: black;
+	height: 100px;
+}
+
+/*syles for section with medium box*/
+.medium-box{
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+/*styles for section with microboxes*/
+.microbox{
+	width: 15%;
+	float: left;
+	background-color: black;
+	height: 100px;
+	margin-left: 11px;
 }
